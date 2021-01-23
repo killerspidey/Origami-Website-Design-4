@@ -1,0 +1,57 @@
+h1 {
+    color: black;
+}
+
+.header {
+    background-image: url(images/images.jpeg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    position: relative;
+    border: 5px solid #FFFFFF;
+}
+
+.menu a {
+    color: #FFFFFF;
+}
+
+.menu a:visited {
+    color: #FF0000;
+}
+
+.site-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item img {
+    border: 5px solid #C0C0C0;
+}
+
+.item a {
+    color: #C0C0C0;
+}
+
+.item a:visited {
+    color: #FFFFFF;
+}
+
+.footer {
+    background-image: url(images/img.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.item:hover img {
+    opacity: 0.33;
+    transform: scale(1.2);
+}
